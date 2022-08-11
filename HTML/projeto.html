@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/cssprojeto.css" rel="stylesheet" type="text/css" />
+
+    <title>Página principal</title>
+    <link rel="icon" href="../IMAGENS/saturno_logo.png">
+</head>
+
+
+<body>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+    <header id="opcoes">
+        <label for="check_menu">
+            <img src="../IMAGENS/botão_menu.png" id="menu">
+        </label>
+        
+        <img src="../IMAGENS/saturno_logo.png" id="saturno">
+        
+        <label for="switch">
+            <p>dark mode</p>
+            <input type="checkbox" id="switch" value="dark-mode">
+        </label>
+        <script src="../JS/tema.js"></script>
+    </header>
+
+
+
+    <input type="checkbox" id="check_menu">
+        <nav id="barra_lateral">
+            <ul>
+                <li><a href="Webb.html" target="_self">Webb</a></li>
+                <li><a href="hubble.html" target="_self">Hubble</a></li>
+                <li><a href="quiz.html" target="_self">quiz</a></li>
+                <li><a href="sobrenos.html" target="_self">sobre nós</a></li>
+                <li><a href="projeto.html" target="_self">Página principal</a></li>
+                <li><a href="fontes.html" target="_self">fontes</a></li>
+            </ul>
+        </nav>
+
+    <div id="container">
+        <h1>OS TELESCÓPIOS ESPACIAIS</h1>
+        <br>
+        <p> &nbsp;&nbsp;&nbsp;Todos sabemos que estamos em um momento histórico no cenário da exploração espacial, afinal, hoje em dia é 
+            possível estudar praticamente todos os planetas do nosso sistema solar, temos conhecimentos novos não só da 
+            nossa galáxia, mas de outras também. Porém, o conhecimento que a humanidade tem sobre o espaço não aconteceu 
+            da noite para o dia, tivemos uma ajuda muito especial.</p>
+        <br>
+        <p>&nbsp;&nbsp;&nbsp;O telescópio é um instrumento usado a séculos e graças a ele que tivemos as primeiras imagens, não só de planetas, 
+            mas também de estrelas, buracos negros, super novas e várias outras grandiosidades que existem entre as galáxias.</p>
+        <br>
+        <img src="../IMAGENS/i433035.jpeg">
+        <br>
+        <p>&nbsp;&nbsp;&nbsp;Hoje existem vários telescópios potentes pelo mundo e também pelo espaço, o Hubble e o seu sucessor James Webb são 
+            dois exemplos que foram e estão sendo bastante importantes para a astronomia mundial, mais para frente nós vamos 
+            falar um pouco mais sobre eles.</p>
+        <br>
+        <h2>O SURGIMENTO DO TELÉSCOPIO</h2>
+        <br>
+        <p>&nbsp;&nbsp;&nbsp;A ideia inicial do telescópio (também conhecido como luneta astronómica) não tinha como o objetivo a observação do céu, o Holandês 
+            Hans Lippershey, um fabricante de lentes neerlandês criou um conceito de utilização de lentes em um tubo e daí surgiu primeiro 
+            telescópio para fins militares no ano de 1608. Um tempo depois, a notícia chegou aos ouvidos de ninguém menos que Galileu Galilei, 
+            que em 1609 apresentou várias versões do instrumento feitas por ele mesmo a partir de experimentações e polimento de vidro.</p>
+        <br>
+        <p>&nbsp;&nbsp;&nbsp;No mesmo ano, Galileu apontou o seu próprio telescópio para o céu e descobriu vários fenômenos celestes como manchas solares, 
+            crateras e o relevo lunar, fases de Vênus e várias outras descobertas. Algum tempo depois surgiu outro grande nome para a história 
+            dos telescópios espaciais, Johannes Kepler inclui um novo tipo de telescópio astronómico com duas lentes convexas, esse telescópio 
+            é bastante referido como telescópio de Kepler.</p>
+        <br>
+        <p>&nbsp;&nbsp;&nbsp;Com o passar do tempo, os telescópios foram evoluindo cada vez mais e hoje em dia temos várias categorias e tipos para eles, como os 
+            Azimutais, Raio-X, Raios gamas e de Radiação infravermelha.</p>
+        <br>
+        <br>
+        <div id="voltartopo" onclick="direcionar(0,0)">
+            voltar ao topo
+        </div>
+        </div>
+
+
+</body>
+
+</html>
